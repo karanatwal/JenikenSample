@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 
     fun onSaveClick(v: View){
         if (emailValidator.isValid()){
-            println("Valid email: ${userNameInput.text}")
+            println("Valid Email: ${userNameInput.text}")
         }else{
-            println("Not a valid email: ${userNameInput.text}")
+            println("Not a Valid Email: ${userNameInput.text}")
         }
     }
 
